@@ -7,7 +7,7 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
-  'https://res.cloudinary.com/primus/image/upload/v1547531051/firasat-durrani-39083-unsplash_vbdpue.jpg';
+  'https://res.cloudinary.com/primus/image/upload/e_art:aurora/v1547533805/KashmirResidency/IMG_1011.jpg';
 
 const styles = theme => ({
   background: {
