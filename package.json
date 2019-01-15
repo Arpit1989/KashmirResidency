@@ -1,0 +1,28 @@
+{
+  "name": "kashmirResidency",
+  "version": "1.0.0",
+  "description": "Hotel Booking Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "classnames": "^2.2.6",
+    "jss": "latest",
+    "markdown-to-jsx": "^6.9.0",
+    "next": "latest",
+    "prop-types": "^15.6.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-jss": "^8.1.0",
+    "recompose": "^0.30.0",
+    "validator": "^10.10.0"
+  }
+}
