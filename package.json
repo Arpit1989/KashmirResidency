@@ -6,21 +6,22 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 8000"
+    "start": "next start -p 8000",
+    "now-build": "next build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arpit Kulshrestha",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "latest",
-    "@material-ui/icons": "latest",
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
     "classnames": "^2.2.6",
-    "jss": "latest",
+    "jss": "^9.8.7",
     "markdown-to-jsx": "^6.9.0",
-    "next": "latest",
+    "next": "^7.0.2",
     "prop-types": "^15.6.2",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-jss": "^8.1.0",
     "recompose": "^0.30.0",
     "validator": "^10.10.0"

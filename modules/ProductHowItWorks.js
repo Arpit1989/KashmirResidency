@@ -52,6 +52,9 @@ const styles = theme => ({
   },
 });
 
+const phone1 = 'tel:911942435360;';
+
+
 function ProductHowItWorks(props) {
   const { classes } = props;
 
@@ -64,7 +67,7 @@ function ProductHowItWorks(props) {
           alt="curvy lines"
         />
         <Typography variant="h4" marked="center" className={classes.title} component="h2">
-          How it works
+          How to Book
         </Typography>
         <div>
           <Grid container spacing={40}>
@@ -77,7 +80,11 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Appointment every Wednesday 9am.
+                  Call us at .
+                  <Link href={phone1} className={classes.link}>
+                    0194-2435360
+                  </Link>
+
                 </Typography>
               </div>
             </Grid>
@@ -104,7 +111,7 @@ function ProductHowItWorks(props) {
                 />
                 <Typography variant="h5" align="center">
                   {'New offers every week. New experiences, new surprises. '}
-                  {'Your Sundays will no longer be alike.'}
+                  {'Your Holidays will no longer be alike.'}
                 </Typography>
               </div>
             </Grid>
@@ -119,7 +126,7 @@ function ProductHowItWorks(props) {
             <Link {...linkProps} href="/premium-themes/onepirate/sign-up" variant="button" />
           )}
         >
-          Get started
+          Book Now
         </Button>
       </LayoutBody>
     </section>

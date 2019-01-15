@@ -162,7 +162,7 @@ function Address(props) {
             <Link {...linkProps} href="/premium-themes/onepirate/sign-up" variant="button" />
           )}
         >
-          Get started
+          Map
         </Button>
       </LayoutBody>
     </section>
